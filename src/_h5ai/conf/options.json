@@ -44,7 +44,7 @@ Options
 	*/
 	"view": {
 		"modes": ["details", "grid", "icons"],
-		"sizes": [48, 24, 96],
+		"sizes": [48, 24, 96,256],
 		"setParentFolderLabels": true,
 		"hideParentFolderLinks": false,
 		"hideFolders": false,
@@ -103,7 +103,7 @@ Options
 	- maxfilesize: number, file size is in MB
 	*/
 	"dropbox": {
-		"enabled": true,
+		"enabled": false,
 		"maxfiles": 10,
 		"maxfilesize": 1000
 	},
@@ -130,7 +130,7 @@ Options
 	if you prefix them with "re:".
 	*/
 	"filter": {
-		"enabled": true
+		"enabled": false
 	},
 
 	/*
@@ -188,7 +188,7 @@ Options
 		2: mode, servername and -version
 	*/
 	"mode": {
-		"enabled": true,
+		"enabled": false,
 		"display": 2
 	},
 
@@ -210,7 +210,7 @@ Options
 	- types: array of types
 	*/
 	"preview-img": {
-		"enabled": true,
+		"enabled": false,
 		"types": ["bmp", "gif", "ico", "image", "jpg", "png"]
 	},
 
@@ -261,7 +261,7 @@ Options
 	- size: width and height in pixel
 	*/
 	"qrcode": {
-		"enabled": true,
+		"enabled": false,
 		"size": 150
 	},
 
@@ -325,8 +325,8 @@ Options
 		"mov": ["video"],
 		"doc": ["pdf", "ps"],
 		"delay": 1,
-		"size": 96,
-		"exif": true
+		"size": 256,
+		"exif": false
 	},
 
 	/*
