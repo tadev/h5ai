@@ -1,4 +1,3 @@
-
 modulejs.define('ext/thumbnails', ['_', 'core/settings', 'core/event', 'core/server'], function (_, allsettings, event, server) {
 
 	var settings = _.extend({
@@ -7,7 +6,7 @@ modulejs.define('ext/thumbnails', ['_', 'core/settings', 'core/event', 'core/ser
 			mov: ['video'],
 			doc: ['pdf', 'ps'],
 			delay: 1000,
-			size: 256
+			size: 512
 		}, allsettings.thumbnails),
 
 		requestThumb = function (type, href, mode, ratio, callback) {
